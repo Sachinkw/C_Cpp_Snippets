@@ -1,0 +1,25 @@
+Abstraction is hiding the implementation details by providing a layer over the basic functionality.
+
+Information Hiding is hiding the data which is being affected by that implementation. Use of private and public comes under this. For example, hiding the variables of the classes.
+
+Encapsulation is just grouping all similar data and functions into a group e.g Class in programming; Packet in networking.
+
+Through the use of Classes, we implement all three concepts - Abstraction, Information Hiding and Encapsulation.
+
+In OOP terminology we can describe it as below.
+Encapsulation : Wrapping up of data and methods into a single unit is Encapsulation. In a class we combine data(variables ) and method that are operated on that data. (e.g. Class)
+
+Abstraction : It is an act of representing only the essential things without including background details. Like we are providing only method declaration in interface not method body (e.g. Interface)
+
+Information Hiding : It is a concept that can be use for hiding data from external world. And that can be achived using Encapsulation and Abstraction.
+
+Data Encapsulation 
+Data encapsulation refers to the bundling of data and their related functions into a single unit called class. Put, if you have an invisible attribute from the outside of an object and bundle it with methods that provide read or write access to it, you can hide delicate information and regulate access to the internal state of the thing.
+
+Therefore, depending on the methods you implement, you are at an onus to decide if an attribute can be read and changed or if it’s read-only or not visible at all. 
+
+The main difference between data hiding and encapsulation is that the former focuses on enhancing data security in the program, while the latter deals with hiding the program’s complexity. 
+Data hiding concentrates on the accessibility of an object member within a class, while data encapsulation focuses on how the data is accessed and how different objects behave. Encapsulation is mainly accomplished through information hiding and not just information concealing. This means that the programmer hides the object member’s structures and hides the implementation of all its methods.
+While data hiding focuses on restricting data use in a program to assure data security, data encapsulation focuses on wrapping (or encapsulating) the complex data to present a simpler view to the user. 
+In data hiding, the data has to be defined as private only. In data encapsulation, the data can be public or private. 
+Data hiding is both a process and technique in itself, whereas data encapsulation is a sub-process in data hiding. 
